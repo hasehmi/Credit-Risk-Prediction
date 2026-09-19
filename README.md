@@ -2,8 +2,7 @@
 
 Predicts whether a loan applicant is likely to default, using the [Statlog German Credit Data](https://archive.ics.uci.edu/dataset/144/statlog+german+credit+data) from the UCI Machine Learning Repository — 1,000 real loan applicants with 20 demographic, financial, and credit-history features.
 
-**Live demo:** [add your Streamlit Cloud link here after deploying]
-
+**Live demo:** https://credit-risk-prediction-qdz3bnnofvbkkqto27mudq.streamlit.app/
 ## Why this project
 
 Most portfolio ML projects stop at "I trained a model and got X% accuracy." This one covers the parts of the pipeline that actually matter in a lending context:
@@ -67,8 +66,3 @@ streamlit run app.py
 - Add macroeconomic context (unemployment rate, interest rates at time of application) as features.
 - Validate the threshold against an actual bank's cost figures instead of a generic F1-optimal point.
 - Move from SMOTE to class-weighted loss and compare — SMOTE synthesizes data, which isn't always preferable to just re-weighting.
-
-## Author
-
-Ans Tanveer Hashmi — BS Data Science, MNS University of Agriculture, Multan.
-[LinkedIn] · [GitHub]
